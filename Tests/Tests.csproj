@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Library</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PolishNotationConverter\PolishNotationConverter.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentAssertions" Version="6.0.0-alpha0002" />
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
+      <PackageReference Include="NUnit" Version="3.13.2" />
+    </ItemGroup>
+
+</Project>
